@@ -7,7 +7,7 @@ gulp.task('electron', () => {
         console.log('[RELOADING]: rendering processes..');
         electron.reload();
     });
-    gulp.watch('main.js', () => {
+    gulp.watch('electron.ts', () => {
         console.log('[RESTARTING]: main process..');
         electron.restart();
     });

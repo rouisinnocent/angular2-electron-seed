@@ -2,7 +2,7 @@
   "name": "angular2-electron-seed",
   "version": "1.0.0",
   "description": "A seed for creating angular2-electron projects",
-  "main": "main.js",
+  "main": "dist/electron.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -39,5 +39,6 @@
     "typescript": "^1.8.10",
     "typings": "^1.0.4",
     "webpack": "^1.13.0",
+    "webpack-manifest-plugin": "^1.0.1"
   }
 }
